@@ -1,5 +1,6 @@
 @import 'config';
 @import 'utils';
+@import 'form';
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
@@ -61,5 +62,25 @@ img{
       color: $primary-color;
       transition: color .1s ease;
     }
+  }
+}
+
+// Section: Landing
+
+.landing{
+  position: relative;
+  background: url('https://raw.githubusercontent.com/bradtraversy/devconnector_theme_sass/master/dist/img/showcase.jpg') no-repeat center center/cover;
+  height: 100vh;
+
+  &-inner{
+    color: #fff;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
   }
 }
